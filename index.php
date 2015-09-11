@@ -10,7 +10,7 @@ echo $abc->get_abc();
 */
 class myclass
 {
-	private $abc = 'alkjlkjkjlk';
+	private $abc = 'aaaaaaa';
 	
 	public function __construct()
 	{
