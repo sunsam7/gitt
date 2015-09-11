@@ -1,6 +1,8 @@
 <?php
 $abc =  new myclass;
-echo $abc->get_intput(4455);
+$abc->set_abc('wahaha');
+echo $abc->get_abc();
+
 /**
 * a new class 
 *
@@ -15,7 +17,11 @@ class myclass
 		// $this->abc = $intput;
 	}
 
-	public function get_intput(){
+	public function set_abc($input){
+		$this->abc = $input;
+	}
+
+	public function get_abc(){
 		return $this->abc;
 	}
 }
