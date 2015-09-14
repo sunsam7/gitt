@@ -14,7 +14,7 @@ class myclass
 	
 	public function __construct()
 	{
-		// $this->abc = $intput;
+		echo $this->abc,'<br/>';
 	}
 
 	public function set_abc($input){
@@ -31,21 +31,23 @@ class myclass
 */
 class ClassB
 {
+
 	private $age;
-	
-	function __construct(argument)
-	{
-		# code...
-	}
+	private $name;
 
 
-	public funtion set_value($input){
+
+	public function set_value($input){
 		return $input;
 
 	}
 
 	public function set_age($input){
 		$this->age = $input;
+	}
+
+	public function set_name($input){
+		$this->name = $input;
 	}
 }
 ?>
