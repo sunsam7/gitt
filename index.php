@@ -37,8 +37,10 @@ class ClassB
 		# code...
 	}
 
-	public function set_value($input){
-		echo $input;
+
+	public funtion set_value($input){
+		return $input;
+
 	}
 }
 ?>
