@@ -36,5 +36,9 @@ class ClassB
 	{
 		# code...
 	}
+
+	public function set_value($input){
+		echo $input;
+	}
 }
 ?>
