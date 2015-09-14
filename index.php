@@ -31,6 +31,7 @@ class myclass
 */
 class ClassB
 {
+	private $age;
 	
 	function __construct(argument)
 	{
@@ -41,6 +42,10 @@ class ClassB
 	public funtion set_value($input){
 		return $input;
 
+	}
+
+	public function set_age($input){
+		$this->age = $input;
 	}
 }
 ?>
