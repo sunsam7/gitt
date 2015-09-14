@@ -35,8 +35,6 @@ class ClassB
 	private $age;
 	private $name;
 
-
-
 	public function set_value($input){
 		return $input;
 
