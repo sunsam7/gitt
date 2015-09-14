@@ -25,4 +25,16 @@ class myclass
 		return $this->abc;
 	}
 }
+
+/**
+* create in branch dev
+*/
+class ClassB
+{
+	
+	function __construct(argument)
+	{
+		# code...
+	}
+}
 ?>
