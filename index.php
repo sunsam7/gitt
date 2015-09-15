@@ -10,7 +10,7 @@ echo $abc->get_abc();
 */
 class myclass
 {
-	private $abc = 'aaaaaaa';
+	private $abc = 'in bugfux_01 fixed';
 	
 	public function __construct()
 	{
