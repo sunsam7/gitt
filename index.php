@@ -54,10 +54,6 @@ class ClassB
 */
 class ClassC
 {
-	
-	/*
-		fffff
-	*/
 
 	public function say_hello(){
 		echo 'hello world';
