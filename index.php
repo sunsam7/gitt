@@ -48,4 +48,19 @@ class ClassB
 		$this->name = $input;
 	}
 }
+
+/**
+* branch dev doing dev job
+*/
+class ClassC
+{
+	
+	/*
+		fffff
+	*/
+
+	public function say_hello(){
+		echo 'hello world';
+	}
+}
 ?>
