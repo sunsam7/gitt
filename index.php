@@ -62,5 +62,9 @@ class ClassC
 	public function get_sth($input="nothing"){
 		return 	$input;
 	}
+
+	function __autoload($class){
+		require_once($class.'class.php');
+	}
 }
 ?>
