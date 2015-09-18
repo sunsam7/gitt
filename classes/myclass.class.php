@@ -21,4 +21,3 @@ class myclass
 		return $this->abc;
 	}
 }
-?>

@@ -13,4 +13,3 @@ class ClassC
 		return 	$input;
 	}
 }
-?>
