@@ -20,5 +20,12 @@ class ClassB
 	public function set_name($input){
 		$this->name = $input;
 	}
+        
+        public function get_name(){
+            return $this->name;
+        }
+        
+        public function get_age(){
+            return $this->age;
+        }
 }
-?>
